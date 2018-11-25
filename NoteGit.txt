@@ -1,0 +1,9 @@
+Learn git:
+
+creat new version
+1 initial git repository
+git init
+2 add doc to git repository
+git add <file>
+git commit -m <message>
+
