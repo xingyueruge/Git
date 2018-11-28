@@ -7,3 +7,21 @@ git init
 git add <file>
 git commit -m <message>
 
+go to different version:
+1 go to different version
+git reset --hard commit_id
+2 commit history log
+git log 
+3 command history log
+gi reflog
+
+add remote repo from local repo
+1 login GitHub website and creat a new repo
+2 add access between local repo and remote repo
+git remote add origin git@github.com:<git account name>/<remote repo name>.git
+3 push local repo to remote repo
+git push -u origin master (-u means add access between local master and remote master at first time and later simplify command)
+git push origin master
+
+clone remote repo to local repo:
+git clone git@github.com:<git account name>/<remote repo name>.git

@@ -1,0 +1,68 @@
+body{
+	margin:0 auto;
+
+}
+
+#login{
+	margin: 0 auto;
+	width: 800px;height: 50;
+	
+
+
+}
+#banner{
+	margin: 0 auto;
+	width: 800px;height: 175;
+	
+}
+#footer{
+	margin: 0 auto;
+	width: 800px;height: 175;
+	border: 0px red solid; 
+}
+#content{
+	margin: 0 auto;
+	width: 800px;
+	border: 1px #90BCFF solid; 
+}
+#news{
+	margin: 0 auto;
+	width: 500px;height: 300;
+	border: 1px #90BCFF solid;
+	float: left; 
+}
+
+#types{
+	margin: 0 auto;
+	width: 295px;height: 300;
+	border: 0px red solid;
+	float: right;  
+}
+
+#zuixingonggao{
+	margin: 0 auto;
+	width: 800px;
+	border: 1px #90BCFF solid;
+	float: left;  
+}
+#tejiatushu{
+	margin: 0 auto;
+	width: 390px;height: 300;
+	border: 1px #90BCFF solid;
+	float: rigth;  
+}
+
+#shows{
+	margin: 0 auto;
+	width: 800;height: 300;
+	border: 0px red solid;
+	
+}
+
+
+
+
+
+
+
+

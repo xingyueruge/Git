@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://www.springframework.org/schema/tx 	http://www.springframework.org/schema/tx/spring-tx-2.5.xsd 
+	http://www.springframework.org/schema/aop    http://www.springframework.org/schema/aop/spring-aop.xsd">
+	
+	
+	
+	
+	
+		<bean id="CommodityDao" class="com.qrsx.dao.CommodityDao"></bean>
+		<bean id="OrderInfoDao" class="com.qrsx.dao.OrderInfoDao"></bean>
+		<bean id="OrderListDao" class="com.qrsx.dao.OrderListDao"></bean>
+		<bean id="TypeDao" class="com.qrsx.dao.TypeDao"></bean>
+		<bean id="UserDao" class="com.qrsx.dao.UserDao"></bean>
+		
+</beans>

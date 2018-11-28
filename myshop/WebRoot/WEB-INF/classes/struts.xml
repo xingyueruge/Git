@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+<constant name="struts.custom.i18n.resources" value="Message"></constant>
+	
+	<package name="common" extends="struts-default" abstract="true">
+
+   </package>
+   
+   
+   <package name="user" extends="common" namespace="/app">
+		<action name="inuser_*" class="com.admin.action.UserAction" method="{1}">
+			<result name="inadd_success">/InManager/user/user_list.jsp</result>	
+		    <result name="inupdate_success">/InManager/user/user_list.jsp</result>
+		    <result name="indelete_success">/InManager/user/user_list.jsp</result>	
+		    <result name="inlogin_success">/InManager/index.jsp</result>	
+		    <result name="inlogin_no">/InManager/login.jsp</result>	
+		</action>
+	   <action name="intype_*" class="com.admin.action.TypeAction" method="{1}">
+			<result name="inadd_success">/InManager/type/type_list.jsp</result>	
+		    <result name="inupdate_success">/InManager/type/type_list.jsp</result>
+		    <result name="indelete_success">/InManager/type/type_list.jsp</result>	
+		</action>
+		
+		
+		<action name="incommodity_*" class="com.admin.action.CommodityAction" method="{1}">
+			<result name="inadd_success">/InManager/commodity/commodity_list.jsp</result>	
+		    <result name="inupdate_success">/InManager/commodity/commodity_list.jsp</result>
+		    <result name="indelete_success">/InManager/commodity/commodity_list.jsp</result>	
+		</action>
+		
+		<action name="inorderinfo_*" class="com.admin.action.OrderAction" method="{1}">
+			<result name="inadd_success">/InManager/order/order_list.jsp</result>	
+		    <result name="inupdate_success">/InManager/order/order_list.jsp</result>
+		    <result name="indelete_success">/InManager/order/order_list.jsp</result>	
+		</action>
+		
+		
+		
+		
+		
+		<action name="outuser_*" class="com.qrsx.action.OutUserAction" method="{1}">
+			<result name="add_success">/main.jsp</result>	
+		    <result name="outupdate_success">/selfinfo.jsp</result>
+		    <result name="delete_success">/InManager/user/user_list.jsp</result>
+		    <result name="outlogin_success">/main.jsp</result>	
+		    <result name="outlogin_no">/main.jsp</result>		
+		</action>
+		
+		
+	    <action name="car_*" class="com.qrsx.action.CarAction" method="{1}">
+		    <result name="car_success">/index.jsp</result>	
+		</action>
+		
+		<action name="order_*" class="com.qrsx.action.OrderAction" method="{1}">
+		    <result name="OrderAndList_succss">/index.jsp</result>	
+		</action>
+		
+		
+		
+	</package>
+   
+   
+</struts>    

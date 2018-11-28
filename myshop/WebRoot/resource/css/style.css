@@ -1,0 +1,64 @@
+﻿BODY {
+	FONT-SIZE: 9pt;
+	FONT-FAMILY: 宋体;
+	COLOR: #333333;
+   
+}
+
+TD {
+	FONT-SIZE:9pt
+	
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #0C2695; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR:  #F30202; TEXT-DECORATION: underline
+}
+A:link {
+	COLOR:  #000000; TEXT-DECORATION: none
+}
+BODY {
+	SCROLLBAR-FACE-COLOR: #AFAFB0; SCROLLBAR-HIGHLIGHT-COLOR: #000000; SCROLLBAR-SHADOW-COLOR: #DEE0E1; SCROLLBAR-3DLIGHT-COLOR: #DEE0E1; SCROLLBAR-ARROW-COLOR: #DEE0E1; SCROLLBAR-TRACK-COLOR: #DEE0E1; SCROLLBAR-DARKSHADOW-COLOR: #ffffff
+}
+.td1{FONT-SIZE:11pt
+	
+}
+.news a{font-size:14px;}
+.news a:hover{font-size:14px;}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #0C2695; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR:  #F30202; TEXT-DECORATION: none
+}
+A:link {
+	COLOR:  #000000; TEXT-DECORATION: none}
+.td3{FONT-SIZE:11pt; COLOR:#000000; LINE-HEIGHT: px; font-weight:bold;}
+.td2{FONT-SIZE:11pt; COLOR:#ffffff; LINE-HEIGHT: px; font-weight:bold;}
+.td5{FONT-SIZE:11pt; COLOR:#EA3800; LINE-HEIGHT: px; font-weight:bold;}
+.title{color:#000000;font-size:12px;font-weight:700}
+.title1{color:#FFffff;font-size:12px;font-weight:700}
+.tdtilte1{color:#000000;font-weight:bold;font-size:11pt;line-height:300%}
+.tdbg{BACKGROUND-POSITION:left top; background-repeat:no-repeat }
+.p1{color:#000000;font-size:12px;line-height:170%}
+.title2{color:#990000; font-size: 40px ;font-family :黑体;font-weight:700}
+.td4{BORDER-BOTTOM: #D7FFE1 1px solid; BORDER-LEFT: #D7FFE1 1px solid; BORDER-RIGHT: #D7FFE1 1px solid; BORDER-TOP: #D7FFE1 1px solid}
+.box1 {
+	BORDER-RIGHT: #FFFFFF 1px solid; BORDER-TOP: #FFFFFF 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #FFFFFF 1px solid;  BORDER-BOTTOM: #FF7200 1px solid; BACKGROUND-COLOR: #FFC600
+}
+.red {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ff6600
+}
+.style1 {
+	COLOR: #ff0000
+}
+.xx {
+	BORDER-RIGHT: #4FBFF9 1px dotted; BORDER-TOP: #4FBFF9 1px dotted; BORDER-LEFT: #4FBFF9 1px dotted; BORDER-BOTTOM: #4FBFF9 1px dotted
+}

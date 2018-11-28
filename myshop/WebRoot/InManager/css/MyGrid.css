@@ -1,0 +1,209 @@
+/*页面列表控件样式集合*/
+
+.MyGrid
+{
+	/*列表整体样式，用于div层*/
+	WIDTH: 100%;
+	BORDER: solid 1px #5588B3;
+	BORDER-COLLAPSE: collapse;
+}
+
+.MyGridHeaderDiv
+{
+	/*列表表头样式，用于层，该层固定且位于上层*/
+	Z-INDEX: 10;
+	POSITION: relative;
+}
+
+.MyGridTableHeader
+{
+	/*列表表头样式，用于表格*/
+	WIDTH: 100%; /*border-left:solid 1px #5588B3; 	border-right:solid 1px #5588B3; 	border-top:solid 1px #5588B3; 	border-bottom:solid 1px #5588B3;*/
+	BORDER-COLLAPSE: collapse;
+	TABLE-LAYOUT: fixed;
+}
+
+.MyGridHeader
+{
+	/*列表表头样式，用于单元格（带背景图片）*/
+	FONT-SIZE: 9pt;
+	HEIGHT: 24px;
+	TEXT-ALIGN: center;
+	font-weight:bold;
+	BACKGROUND-COLOR: #D3D3D3;
+	BACKGROUND-IMAGE: url(../Images/top_button_bg.gif);
+	BORDER-LEFT: solid 1px #5588B3;
+	BORDER-RIGHT: solid 1px #5588B3;
+	BORDER-TOP: solid 1px #5588B3;
+	BORDER-BOTTOM: solid 1px #5588B3;
+}
+
+.MyGridHeader1
+{
+	/*列表表头样式，用于单元格（不带背景图片）*/
+	FONT-SIZE: 9pt;
+	HEIGHT: 28px;
+	TEXT-ALIGN: center;
+	BACKGROUND-COLOR: #D3D3D3;
+	BORDER-RIGHT: solid 1px #4682B4;
+	BORDER-LEFT: #598CB7 1px solid;
+	BORDER-BOTTOM: #4682B4 1px solid;
+	BORDER-TOP: solid 1px #598CB7;
+}
+
+.MyGridTableBody
+{
+	/*列表主体样式，用于表格*/
+	WIDTH: 100%; /*BORDER-LEFT: solid 1px #5588B3; 	BORDER-RIGHT: solid 1px #5588B3; 	BORDER-BOTTOM: solid 1px #5588B3;*/
+	BORDER-COLLAPSE: collapse;
+	TABLE-LAYOUT: fixed;
+}
+
+.MyGridTableRow
+{
+	/*列表单行样式，用于表格*/
+	WIDTH: 100%;
+	BORDER-COLLAPSE: collapse;
+	TABLE-LAYOUT: fixed;
+	height:24px;
+}
+
+.MyGridTableRowExpand
+{
+	/*列表单行样式，用于表格*/
+	WIDTH: 100%;
+	BORDER-COLLAPSE: collapse;
+}
+
+.MyGridTableAlternatingRow
+{
+	/*列表交替行单行样式，用于表格*/
+	WIDTH: 100%;
+	BORDER-COLLAPSE: collapse;
+	TABLE-LAYOUT: fixed;
+	BACKGROUND-COLOR: #ECECEC;
+}
+
+.MyGridTableAlternatingRowExpand
+{
+	/*列表交替行单行样式，用于表格*/
+	WIDTH: 100%;
+	BORDER-COLLAPSE: collapse;
+	BACKGROUND-COLOR: #ECECEC;
+}
+
+.MyGridTableSelectedRow
+{
+	/*列表选中行单行样式，用于表格*/
+	WIDTH: 100%;
+	BORDER-COLLAPSE: collapse;
+	TABLE-LAYOUT: fixed;
+	BACKGROUND-COLOR: #CFCFFF;
+}
+
+.MyGridTableSelectedRowExpand
+{
+	/*列表选中行单行样式，用于表格*/
+	WIDTH: 100%;
+	BORDER-COLLAPSE: collapse;
+	BACKGROUND-COLOR: #CFCFFF;
+}
+
+.MyGridItem
+{
+	/*列表单元格样式*/
+	FONT-SIZE: 9pt;
+	HEIGHT: 24px;
+	TEXT-ALIGN: center;
+	PADDING-LEFT: 5px;
+	PADDING-RIGHT: 2px;
+	BORDER-LEFT: solid 1px #598CB7;
+	BORDER-RIGHT: solid 1px #598CB7;
+	BORDER-BOTTOM: solid 1px #598CB7;
+	BORDER-TOP: solid 1px #598CB7;
+	OVERFLOW: hidden;
+	WHITE-SPACE: nowrap;
+	text-overflow: ellipsis;
+}
+
+.MyGridItemExpand
+{
+	/*列表单元格样式*/
+	FONT-SIZE: 9pt;
+	HEIGHT: 24px;
+	TEXT-ALIGN: center;
+	PADDING-LEFT: 2px;
+	PADDING-RIGHT: 2px;
+	PADDING-TOP: 2px;
+	PADDING-BOTTOM: 2px;
+	BORDER-LEFT: solid 1px #598CB7;
+	BORDER-RIGHT: solid 1px #598CB7;
+	BORDER-BOTTOM: solid 1px #598CB7;
+	BORDER-TOP: solid 1px #598CB7;
+}
+
+.MyGridItemLeft
+{
+	/*列表单元格样式（居左）*/
+	FONT-SIZE: 9pt;
+	HEIGHT: 24px;
+	TEXT-ALIGN: left;
+	PADDING-LEFT: 2px;
+	PADDING-RIGHT: 2px;
+	BORDER-LEFT: solid 1px #598CB7;
+	BORDER-RIGHT: solid 1px #598CB7;
+	BORDER-BOTTOM: solid 1px #598CB7;
+	BORDER-TOP: solid 1px #598CB7;
+	OVERFLOW: hidden;
+	WHITE-SPACE: nowrap;
+	text-overflow: ellipsis;
+}
+.MyGridItemLeft1
+{
+	/*列表单元格样式（居左）(两个table在一起时下面的table顶部的边框不能显示)*/
+	FONT-SIZE: 9pt;
+	HEIGHT: 24px;
+	TEXT-ALIGN: left;
+	PADDING-LEFT: 2px;
+	PADDING-RIGHT: 2px;
+	BORDER-LEFT: solid 1px #598CB7;
+	BORDER-RIGHT: solid 1px #598CB7;
+	BORDER-BOTTOM: solid 1px #598CB7;
+	/*BORDER-TOP: solid 1px #598CB7;*/
+	OVERFLOW: hidden;
+	WHITE-SPACE: nowrap;
+	text-overflow: ellipsis;
+}
+.MyGridItemLeftExpand
+{
+	/*列表单元格样式（居左）*/
+	FONT-SIZE: 9pt;
+	HEIGHT: 24px;
+	TEXT-ALIGN: left;
+	PADDING-LEFT: 2px;
+	PADDING-RIGHT: 2px;
+	PADDING-TOP: 2px;
+	PADDING-BOTTOM: 2px;
+	BORDER-LEFT: solid 1px #598CB7;
+	BORDER-RIGHT: solid 1px #598CB7;
+	BORDER-BOTTOM: solid 1px #598CB7;
+	BORDER-TOP: solid 1px #598CB7;
+}
+
+.MyGridAlternatingItem
+{
+	/*列表交替单元格样式*/
+	FONT-SIZE: 9pt;
+	HEIGHT: 24px;
+	TEXT-ALIGN: center;
+	PADDING-LEFT: 5px;
+	PADDING-RIGHT: 2px;
+	BORDER-LEFT: solid 1px #598CB7;
+	BORDER-RIGHT: solid 1px #598CB7;
+	BORDER-BOTTOM: solid 1px #598CB7;
+	BORDER-TOP: solid 1px #598CB7;
+	OVERFLOW: hidden;
+	WHITE-SPACE: nowrap;
+	text-overflow: ellipsis;
+	BACKGROUND-COLOR: #E0EDFB;
+}
